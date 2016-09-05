@@ -23,6 +23,3 @@ Name gif made using [FORM Type Maker](https://formtypemaker.appspot.com/)
 CSS used: [Material Design](http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html)
 
 
-=======
-# dotfiles
-

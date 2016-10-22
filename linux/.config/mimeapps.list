@@ -1,0 +1,14 @@
+[Added Associations]
+text/plain=mousepad.desktop;emacs.desktop;
+application/x-shellscript=mousepad.desktop;emacs.desktop;
+inode/socket=mousepad.desktop;
+application/octet-stream=mousepad.desktop;
+image/png=feh.desktop;
+text/x-python=mousepad.desktop;
+image/jpeg=feh.desktop;
+application/javascript=mousepad.desktop;
+application/x-xpinstall=firefox.desktop;thunderbird.desktop;
+text/html=mousepad.desktop;firefox.desktop;
+text/vcard=mousepad.desktop;
+audio/x-mpegurl=mousepad.desktop;
+image/gif=feh.desktop;

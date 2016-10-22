@@ -7,4 +7,4 @@
 #TODO:
 
 - vim/emacs configs
-
+- zsh config

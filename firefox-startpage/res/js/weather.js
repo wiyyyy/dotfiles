@@ -1,23 +1,11 @@
 $(window).on('load', function() {
 
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showData, function(failure) {
-            showData({
-                coords: {
-                    latitude: 54.1532,
-                    longitude: 12.1046
-                }
-            });
-        });
-    } else {
-        showData({
+    showData({
             coords: {
-                latitude: 54.1532,
-                longitude: 12.1046
+                latitude: 40.8810,
+                longitude: 29.2263
             }
         });
-    }
-
 
 });
 
@@ -44,7 +32,7 @@ function showWeather(position) {
     let lat = position.coords.latitude;
     let lon = position.coords.longitude;
 
-    let weatherDataUrl = "https://api.apixu.com/v1/current.json?key=595c32ad4dce4ec58c4101822160311&q=" + lat + "," + lon + "";
+    let weatherDataUrl = "https://api.apixu.com/v1/current.json?key=b09ceeaf589f4538963194544160811&q=" + lat + "," + lon + "";
 
     getData(weatherDataUrl, function(result) {
       let speed_kmh = result.current.wind_kph;
